@@ -1,0 +1,44 @@
+/home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pbit
+
+Top level modules:
+	pbit
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top_level
+
+Top level modules:
+	Top_level
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/Lookup.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/Lookup.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module atanh_LOOKUP
+
+Top level modules:
+	atanh_LOOKUP
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+-- Compiling module RNG
+
+Top level modules:
+	RNG
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/cordicdiv.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/cordicdiv.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cordicdiv
+
+Top level modules:
+	cordicdiv
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/cordic.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/cordic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cordictanh
+
+Top level modules:
+	cordictanh
+
+} {} {}}

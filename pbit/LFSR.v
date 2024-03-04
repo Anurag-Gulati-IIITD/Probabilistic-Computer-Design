@@ -69,6 +69,6 @@ module RNG #(parameter STAGES = 8) (
 
     wire [STAGES - 1 : 0] out_lfsr;
     LFSR #(.STAGES(STAGES), .INIT(1)) LFSR_inst (.clk(clk), .rst(reset), .LFSROut(out_lfsr));
-    assign randn = {24'b0,out_lfsr};
+    assign randn = out_lfsr;
 
 endmodule

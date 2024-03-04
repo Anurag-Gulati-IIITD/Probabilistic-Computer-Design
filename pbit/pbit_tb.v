@@ -55,7 +55,7 @@ module pbit_tb();
 //        #5 RST = 0;
         
         // Provide some stimulus
-        z = 32'b1111_0110_1100_1100_1100_1100_1100_1101;
+        z = 32'b0000_0010_0000_0000_0000_0000_0000_0000;
         
         #5 RST = 1;
         #5 RST = 0; // Example input, change as needed
