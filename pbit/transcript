@@ -1,0 +1,242 @@
+# Loading project pbit
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 15:57:12 on Mar 26,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+add wave -position end  sim:/pbit_tb/TT/CLK
+add wave -position end  sim:/pbit_tb/TT/RST
+add wave -position end  sim:/pbit_tb/TT/out1
+add wave -position end  sim:/pbit_tb/TT/out2
+add wave -position end  sim:/pbit_tb/TT/out3
+add wave -position end  sim:/pbit_tb/TT/z1
+add wave -position end  sim:/pbit_tb/TT/z2
+add wave -position end  sim:/pbit_tb/TT/z3
+add wave -position end  sim:/pbit_tb/TT/w1
+add wave -position end  sim:/pbit_tb/TT/w2
+add wave -position end  sim:/pbit_tb/TT/w3
+add wave -position end  sim:/pbit_tb/TT/b1
+add wave -position end  sim:/pbit_tb/TT/b2
+add wave -position end  sim:/pbit_tb/TT/b3
+add wave -position end  sim:/pbit_tb/TT/update_sequence
+add wave -position end  sim:/pbit_tb/TT/m_3
+add wave -position end  sim:/pbit_tb/TT/m_2
+add wave -position end  sim:/pbit_tb/TT/m_1
+add wave -position end  sim:/pbit_tb/TT/count
+add wave -position end  sim:/pbit_tb/TT/CLK_DIV2
+run
+add wave -position end  sim:/pbit_tb/count
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+restart
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+add wave -position 6  sim:/pbit_tb/TT/bit1/rand_no
+add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out
+add wave -position 8  sim:/pbit_tb/TT/bit1/temp_sum
+add wave -position 10  sim:/pbit_tb/TT/bit2/rand_no
+add wave -position 11  sim:/pbit_tb/TT/bit2/tanh_out
+add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out
+add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out_reg
+add wave -position 11  sim:/pbit_tb/TT/bit2/tanh_out_reg
+add wave -position 12  sim:/pbit_tb/TT/bit2/temp_sum
+add wave -position 14  sim:/pbit_tb/TT/bit3/rand_no
+add wave -position 15  sim:/pbit_tb/TT/bit3/tanh_out_reg
+add wave -position 16  sim:/pbit_tb/TT/bit3/temp_sum
+restart
+run
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+# WARNING: No extended dataflow license exists
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.pbit_test
+# End time: 23:53:49 on Mar 26,2024, Elapsed time: 7:56:37
+# Errors: 0, Warnings: 6
+# vsim work.pbit_test 
+# Start time: 23:53:49 on Mar 26,2024
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+add wave -position end  sim:/pbit_test/my_pbit/CLK
+add wave -position end  sim:/pbit_test/my_pbit/RST
+add wave -position end  sim:/pbit_test/my_pbit/en
+add wave -position end  sim:/pbit_test/my_pbit/z
+add wave -position end  sim:/pbit_test/my_pbit/pbit_val
+add wave -position end  sim:/pbit_test/my_pbit/rand_no
+add wave -position end  sim:/pbit_test/my_pbit/temp_sum
+add wave -position end  sim:/pbit_test/my_pbit/tanh_out
+add wave -position end  sim:/pbit_test/my_pbit/tanh_out_reg
+add wave -position end  sim:/pbit_test/my_pbit/overflow
+run
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+run
+run
+run
+run
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+add wave -position 4  sim:/pbit_test/i
+restart
+run
+run
+restart
+run
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+add wave -position end  sim:/pbit_test/count1
+add wave -position end  sim:/pbit_test/count0
+restart
+run
+restart
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_test
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+run
+restart
+run
+# End time: 05:25:12 on Mar 28,2024, Elapsed time: 29:31:23
+# Errors: 0, Warnings: 1

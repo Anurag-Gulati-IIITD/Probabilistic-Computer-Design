@@ -20,8 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module LFSR #(parameter STAGES = 8, parameter INIT = 1)(
-	input clk, input rst,
+module LFSR #(parameter STAGES = 32, parameter INIT = 1)(
+	input clk, input rst, input en,
 	output [STAGES - 1 : 0] LFSROut
 );
 
@@ -31,14 +31,14 @@ module LFSR #(parameter STAGES = 8, parameter INIT = 1)(
 	always @(posedge clk) begin
 		if(rst)
 			Out <= INIT;
-		else if(D == 8'h4 & ~one_check)
-			Out <= 8'h0;
+		else if(D == 32'h3 & ~one_check)
+			Out <= 32'h0;
 		else 
 			Out <= D;
 	end
 
 	always @(posedge clk) begin
-		if(D == 8'h4 & ~one_check)
+		if(D == 32'h3 & ~one_check)
 			one_check <= 1'b1;
 		else 
 			one_check <= 1'b0;
@@ -47,28 +47,19 @@ module LFSR #(parameter STAGES = 8, parameter INIT = 1)(
 	always @(posedge clk) begin
 		if(rst)
 			Q <= INIT;
-		else if (D == 8'h4 & ~one_check)
+		else if(~en) // Synchronous enable and reset
+			Q <= Q;
+		else if (D == 32'h3 & ~one_check)
 			Q <= Q;
 		else 
 			Q <= D;
 	end
 
 	always@(*) begin
-		D = {Q[6:0], Q[7]^Q[5]^Q[4]^Q[3]};
+		D = {Q[30:0], ~(Q[31]^Q[21]^Q[1]^Q[0])};
 	end
 	
 	assign LFSROut = Out;
 
 endmodule
 
-module RNG #(parameter STAGES = 8) (
-    input clk, reset,
-    output [31 : 0] randn
-
-);
-
-    wire [STAGES - 1 : 0] out_lfsr;
-    LFSR #(.STAGES(STAGES), .INIT(1)) LFSR_inst (.clk(clk), .rst(reset), .LFSROut(out_lfsr));
-    assign randn = out_lfsr;
-
-endmodule

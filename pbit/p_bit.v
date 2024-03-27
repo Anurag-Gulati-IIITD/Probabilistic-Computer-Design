@@ -1,39 +1,48 @@
-module pbit(CLK, RST, z, pbit_val);
-    parameter FLOAT_SIZE = 24;
-    parameter INT_SIZE = 8;
+module pbit #(parameter INIT = 1) (
+    input wire CLK, RST, en,
+    input wire [5 : 0] z, // clamped bias from weight to tanh
+    output reg pbit_val
+
+);
     
-    input wire CLK, RST;
-    input wire [INT_SIZE-1: -FLOAT_SIZE] z;
-    output wire pbit_val;
+    
     // Define scaling factor
-    localparam SCALE_FACTOR = 255;
+    localparam STAGES = 32;
         
-    wire [INT_SIZE-1: 0] rand_no;
-    wire [INT_SIZE-1: -FLOAT_SIZE] tanh_val;
-    wire [INT_SIZE-1: -FLOAT_SIZE] true_rand;
-    wire [INT_SIZE  : -FLOAT_SIZE] temp_add; // sum is one bit wider, understandably
-    wire signed [INT_SIZE-1: -FLOAT_SIZE] tanh_out;
-    // reg temp_pbit;    
+    wire signed [31 : 0] rand_no;
+    wire signed[31 : 0] temp_sum;
+    wire signed [31 : 0] tanh_out;
+    reg signed [31 : 0] tanh_out_reg;
+    wire overflow;
     
-    RNG rand(
-    .clk(CLK),
-    .reset(RST),
-    .randn(rand_no)
-    );
+    // rng block
+    LFSR #(.STAGES(STAGES), .INIT(INIT)) LFSR_inst (.clk(CLK), .rst(RST), .en(en), .LFSROut(rand_no));
     
-    cordictanh tanh (
-	.CLK(CLK), 
-	.EN(RST), 
-	.z(z),
-	.out(tanh_out)
+    // tanh block
+    tanh_LUT tanh (
+	.bias(z),
+	.tanh_out(tanh_out)
 	);
+
+    always @(posedge CLK) begin
+        if(~en) begin
+            tanh_out_reg <= tanh_out_reg;
+        end
+        else begin
+            tanh_out_reg <= tanh_out;
+        end
+    end
 	
-    assign true_rand = {rand_no, 24'b0};
-    assign tanh_val = ((tanh_out+32'h01_000000)>>>1) * SCALE_FACTOR;
-    assign temp_add = true_rand + tanh_val;
+    assign temp_sum = rand_no + tanh_out_reg;
+
+    assign overflow = (rand_no[31] == tanh_out_reg[31]) && (temp_sum[31] == ~rand_no[31]);
     
-    
-    
-    assign pbit_val = temp_add[8] ? 1 : 0;
-    
+    always @(*) begin
+        if (overflow) begin
+            pbit_val = temp_sum[31];
+        end
+        else begin
+            pbit_val = temp_sum[31] ? 0 : 1;
+        end
+    end
 endmodule
