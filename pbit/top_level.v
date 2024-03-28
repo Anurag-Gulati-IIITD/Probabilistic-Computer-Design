@@ -83,21 +83,21 @@ pbit  #(.INIT(3000000000)) bit3 (.CLK(CLK), .RST(RST), .z(z3), .pbit_val(out3), 
 
 
 initial begin
-     w1[2] = 2;
-     w1[1] =-1;
-     w1[0] = 0;
+    w1[2] = 7'b0_0010_00 //  2;
+    w1[1] = 7'b1_0001_00 // -1;
+    w1[0] = 7'b0_0000_00 //  0;
 
-     w2[2] = 2;
-     w2[1] = 0;
-     w2[0] =-1;
+    w2[2] = 7'b0_0010_00 //  2;
+    w2[1] = 7'b0_0000_00 //  0;
+    w2[0] = 7'b1_0001_00 // -1;
 
-     w3[2] = 0;
-     w3[1] = 2;
-     w3[0] = 2;
+    w3[2] = 7'b0_0000_00 //  0;
+    w3[1] = 7'b0_0010_00 //  2;
+    w3[0] = 7'b0_0010_00 //  2;
      
-     b1 = 1;
-     b2 = 1;
-     b3 = -2;
+    b1 = 7'b0_0001_00    //  1;
+    b2 = 7'b0_0001_00    //  1;
+    b3 = 7'b1_0010_00    // -2;
 end
 
 // using qadd and qmult to compute each z means declaring 2 adder instances (with dependency) and 2 independent multiplier instances:
