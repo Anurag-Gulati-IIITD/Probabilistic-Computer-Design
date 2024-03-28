@@ -124,7 +124,7 @@ always @(z3_t) begin
     if(z3_t[N-1] == 1'b1 && z3_t[N-2:0] > 6'b100000) begin      // if z3 is -ve and its abs mag is greater than 8
         z3_t = 7'b1100000; // -8
     end
-    else if (z3_t[N-1] == 1'b0 && z3_t[N-2:0] > 6'b100000) begin // if z3 is +ve and its abs mag is greater than 8
+    else if (z3_t[N-1] == 1'b0 && z3_t[N-2:0] > 6'b011111) begin // if z3 is +ve and its abs mag is greater than 7.75
         z3_t = 7'b0011111; // 7.75
     end
     else z3_t = z3_t;      // no change
@@ -153,7 +153,7 @@ always @(z2_t) begin
     if(z2_t[N-1] == 1'b1 && z2_t[N-2:0] > 6'b100000) begin 
         z2_t = 7'b1100000; // -8
     end
-    else if (z2_t[N-1] == 1'b0 && z2_t[N-2:0] > 6'b100000) begin
+    else if (z2_t[N-1] == 1'b0 && z2_t[N-2:0] > 6'b011111) begin
         z2_t = 7'b0011111; // 7.75
     end
     else z2_t = z2_t;      // no change
@@ -182,7 +182,7 @@ always @(z1_t) begin
     if(z1_t[N-1] == 1'b1 && z1_t[N-2:0] > 6'b100000) begin    
         z1_t = 7'b1100000; // -8
     end
-    else if (z1_t[N-1] == 1'b0 && z1_t[N-2:0] > 6'b100000) begin 
+    else if (z1_t[N-1] == 1'b0 && z1_t[N-2:0] > 6'b011111) begin 
         z1_t = 7'b0011111; // 7.75
     end
     else z1_t = z1_t;      // no change
