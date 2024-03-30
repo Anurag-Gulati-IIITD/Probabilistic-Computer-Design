@@ -1,6 +1,6 @@
 module pbit #(parameter INIT = 1) (
     input wire CLK, RST, en,
-    input wire [5 : 0] z, // clamped bias from weight to tanh
+    input wire [6 : 0] z, // clamped bias from weight to tanh
     output reg pbit_val
 
 );

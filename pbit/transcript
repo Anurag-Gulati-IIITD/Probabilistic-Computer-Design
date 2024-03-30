@@ -1,18 +1,99 @@
+# Loading project project_seq_test
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
 # Loading project pbit
 # Compile of LFSR.v was successful.
 # Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
 # Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 0 failed with no errors.
+# Compile of top_level.v was successful with warnings.
+# Compile of pbit_test_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
 vsim work.pbit_tb
 # vsim work.pbit_tb 
-# Start time: 15:57:12 on Mar 26,2024
+# Start time: 04:43:45 on Mar 30,2024
 # Loading work.pbit_tb
 # Loading work.Top_level
 # Loading work.pbit
 # Loading work.LFSR
 # Loading work.tanh_LUT
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 156
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 157
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 159
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 160
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 188
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 189
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 191
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 192
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 219
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 220
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 222
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 223
+#         Searched libraries:
+#             /home/ullas/Probabilistic-Computer-Design/pbit/work
+# Error loading design
+# End time: 04:43:45 on Mar 30,2024, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 2
+# Compile of LFSR.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful with warnings.
+# Compile of pbit_test_tb.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 04:44:16 on Mar 30,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+add wave -position end  sim:/pbit_tb/CLK
+add wave -position end  sim:/pbit_tb/RST
+add wave -position end  sim:/pbit_tb/m3
+add wave -position end  sim:/pbit_tb/m2
+add wave -position end  sim:/pbit_tb/m1
+add wave -position end  sim:/pbit_tb/count
+add wave -position end  sim:/pbit_tb/clk_div6
+add wave -position end  sim:/pbit_tb/count2
 add wave -position end  sim:/pbit_tb/TT/CLK
 add wave -position end  sim:/pbit_tb/TT/RST
 add wave -position end  sim:/pbit_tb/TT/out1
@@ -21,30 +102,20 @@ add wave -position end  sim:/pbit_tb/TT/out3
 add wave -position end  sim:/pbit_tb/TT/z1
 add wave -position end  sim:/pbit_tb/TT/z2
 add wave -position end  sim:/pbit_tb/TT/z3
-add wave -position end  sim:/pbit_tb/TT/w1
-add wave -position end  sim:/pbit_tb/TT/w2
-add wave -position end  sim:/pbit_tb/TT/w3
-add wave -position end  sim:/pbit_tb/TT/b1
-add wave -position end  sim:/pbit_tb/TT/b2
-add wave -position end  sim:/pbit_tb/TT/b3
-add wave -position end  sim:/pbit_tb/TT/update_sequence
-add wave -position end  sim:/pbit_tb/TT/m_3
-add wave -position end  sim:/pbit_tb/TT/m_2
-add wave -position end  sim:/pbit_tb/TT/m_1
-add wave -position end  sim:/pbit_tb/TT/count
-add wave -position end  sim:/pbit_tb/TT/CLK_DIV2
+add wave -position 8  sim:/pbit_tb/TT/update_sequence
+add wave -position 12  sim:/pbit_tb/TT/m_3
+add wave -position 13  sim:/pbit_tb/TT/m_2
+add wave -position 14  sim:/pbit_tb/TT/m_1
 run
-add wave -position end  sim:/pbit_tb/count
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run
-restart
 # Compile of LFSR.v was successful.
 # Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
 # Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 0 failed with no errors.
+# Compile of top_level.v was successful with warnings.
+# Compile of pbit_test_tb.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# 8 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.pbit_tb
@@ -52,39 +123,20 @@ restart
 # Loading work.pbit
 # Loading work.LFSR
 # Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
 run
-add wave -position 6  sim:/pbit_tb/TT/bit1/rand_no
-add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out
-add wave -position 8  sim:/pbit_tb/TT/bit1/temp_sum
-add wave -position 10  sim:/pbit_tb/TT/bit2/rand_no
-add wave -position 11  sim:/pbit_tb/TT/bit2/tanh_out
-add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out
-add wave -position 7  sim:/pbit_tb/TT/bit1/tanh_out_reg
-add wave -position 11  sim:/pbit_tb/TT/bit2/tanh_out_reg
-add wave -position 12  sim:/pbit_tb/TT/bit2/temp_sum
-add wave -position 14  sim:/pbit_tb/TT/bit3/rand_no
-add wave -position 15  sim:/pbit_tb/TT/bit3/tanh_out_reg
-add wave -position 16  sim:/pbit_tb/TT/bit3/temp_sum
 restart
 run
 # Compile of LFSR.v was successful.
 # Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
 # Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v failed with 3 errors.
-# 5 compiles, 1 failed with 3 errors.
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 0 failed with no errors.
+# Compile of top_level.v was successful with warnings.
+# Compile of pbit_test_tb.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# 8 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.pbit_tb
@@ -92,151 +144,72 @@ restart
 # Loading work.pbit
 # Loading work.LFSR
 # Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
 run
-# WARNING: No extended dataflow license exists
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v failed with 1 errors.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# Compile of pbit_test_tb.v failed with 1 errors.
-# 6 compiles, 1 failed with 1 error.
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim work.pbit_test
-# End time: 23:53:49 on Mar 26,2024, Elapsed time: 7:56:37
-# Errors: 0, Warnings: 6
-# vsim work.pbit_test 
-# Start time: 23:53:49 on Mar 26,2024
-# Loading work.pbit_test
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-add wave -position end  sim:/pbit_test/my_pbit/CLK
-add wave -position end  sim:/pbit_test/my_pbit/RST
-add wave -position end  sim:/pbit_test/my_pbit/en
-add wave -position end  sim:/pbit_test/my_pbit/z
-add wave -position end  sim:/pbit_test/my_pbit/pbit_val
-add wave -position end  sim:/pbit_test/my_pbit/rand_no
-add wave -position end  sim:/pbit_test/my_pbit/temp_sum
-add wave -position end  sim:/pbit_test/my_pbit/tanh_out
-add wave -position end  sim:/pbit_test/my_pbit/tanh_out_reg
-add wave -position end  sim:/pbit_test/my_pbit/overflow
+add wave -position end  sim:/pbit_tb/TT/bit1/tanh_out_reg
+restart
+run
+add wave -position 24  sim:/pbit_tb/TT/z1_f
+restart
+run
+add wave -position 25  sim:/pbit_tb/TT/w2
+add wave -position 26  sim:/pbit_tb/TT/w3
+add wave -position 27  sim:/pbit_tb/TT/b1
+restart
+run
+add wave -position 25  sim:/pbit_tb/TT/mult2_res_z1
+restart
+run
+add wave -position 25  sim:/pbit_tb/TT/mult1_res_z1
+restart
 run
 # Compile of LFSR.v was successful.
 # Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
 # Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
+# Compile of top_level.v was successful with warnings.
 # Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# 8 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_test
+# Loading work.pbit_tb
+# Loading work.Top_level
 # Loading work.pbit
 # Loading work.LFSR
 # Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
 run
-run
-run
-run
-run
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_test
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-run
-add wave -position 4  sim:/pbit_test/i
+add wave -position 25  sim:/pbit_tb/TT/mult2_z1/i_multiplicand
+add wave -position 26  sim:/pbit_tb/TT/mult2_z1/i_multiplier
 restart
 run
-run
+add wave -position 25  sim:/pbit_tb/TT/mult2_z1/ovr
+add wave -position 26  sim:/pbit_tb/TT/mult2_z1/r_result
+add wave -position 27  sim:/pbit_tb/TT/mult2_z1/r_RetVal
 restart
 run
 # Compile of LFSR.v was successful.
 # Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
 # Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
+# Compile of top_level.v was successful with warnings.
 # Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# 8 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_test
+# Loading work.pbit_tb
+# Loading work.Top_level
 # Loading work.pbit
 # Loading work.LFSR
 # Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_test
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-run
-add wave -position end  sim:/pbit_test/count1
-add wave -position end  sim:/pbit_test/count0
-restart
-run
-restart
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful.
-# Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_test
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-run
-restart
-run
-# End time: 05:25:12 on Mar 28,2024, Elapsed time: 29:31:23
+# End time: 16:10:19 on Mar 30,2024, Elapsed time: 11:26:03
 # Errors: 0, Warnings: 1

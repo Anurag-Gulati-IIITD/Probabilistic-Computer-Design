@@ -17,6 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param chipscope.maxJobs 2
 create_project -in_memory -part xc7z020clg484-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -32,6 +33,8 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v
   /home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v
+  /home/ullas/Probabilistic-Computer-Design/pbit/qadd.v
+  /home/ullas/Probabilistic-Computer-Design/pbit/qmult.v
   /home/ullas/Probabilistic-Computer-Design/pbit/tanh_LUT.v
   /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v
 }
@@ -43,6 +46,9 @@ read_verilog -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/ullas/Probabilistic-Computer-Design/pbit/project_1/project_1.srcs/constrs_1/new/const.xdc
+set_property used_in_implementation false [get_files /home/ullas/Probabilistic-Computer-Design/pbit/project_1/project_1.srcs/constrs_1/new/const.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

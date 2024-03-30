@@ -2,10 +2,14 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-
 INFO: [VRFC 10-311] analyzing module LFSR
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module pbit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/qmult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmult
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/tanh_LUT.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tanh_LUT
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/top_level.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Top_level
-WARNING: [VRFC 10-2581] 3000000000 as 32-bit signed integer overflows, using -1294967296 instead [/home/ullas/Probabilistic-Computer-Design/pbit/top_level.v:79]
+WARNING: [VRFC 10-2581] 3000000000 as 32-bit signed integer overflows, using -1294967296 instead [/home/ullas/Probabilistic-Computer-Design/pbit/top_level.v:134]
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/pbit_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module pbit_tb

@@ -20,31 +20,83 @@ reg [2:0] update_sequence;
 reg [N-1:0] m_3 = 0, m_2 = 0, m_1 = 0;
 
 
-integer count = 0;
-reg CLK_DIV2;
-always @(posedge CLK) begin
-    if (RST) 
-        CLK_DIV2 <= 0;
-    else
-        CLK_DIV2 <= ~CLK_DIV2;
-end
+integer arb_seq_count = 0;
+integer clk3_count = 0;
+// reg CLK_DIV2;
+// always @(posedge CLK) begin
+//     if (RST) 
+//         CLK_DIV2 <= 0;
+//     else
+//         CLK_DIV2 <= ~CLK_DIV2;
+// end
 
-always @(posedge CLK_DIV2) begin
-    if(count == 0) begin
+reg first = 0;
+    
+always @(posedge CLK) begin
+
+    if (RST) begin
+        clk3_count <= 0;
+        arb_seq_count <= 0;
+        update_sequence <= 3'b000;
+        first <= 1;
+    end
+
+    else if (first) begin
+        clk3_count <= 0;
+        arb_seq_count <= 0;
         update_sequence <= 3'b001;
-        count <= count + 1;
+        first <= 0;
     end
-    else if (count == 1) begin
-        update_sequence <= 3'b010;
-        count <= count + 1;
+
+    else if(arb_seq_count == 0) begin
+        if(clk3_count == 1) begin
+            update_sequence <= 3'b000;
+            clk3_count <= clk3_count + 1;
+        end 
+        else if (clk3_count == 2) begin
+            update_sequence <= 3'b010;
+            arb_seq_count <= 1;
+            clk3_count <= 0;
+        end else begin
+            update_sequence <= 3'b001;
+            clk3_count <= clk3_count + 1;
+        end
     end
-    else if (count == 2) begin
-        update_sequence <= 3'b100;
-        count <= 0;
+
+    else if (arb_seq_count == 1) begin
+        if(clk3_count == 1) begin
+            update_sequence <= 3'b000;
+            clk3_count <= clk3_count + 1;
+        end 
+        else if (clk3_count == 2) begin
+            update_sequence <= 3'b100;
+            arb_seq_count <= 2;
+            clk3_count <= 0;
+        end else begin
+            update_sequence <= 3'b010;
+            clk3_count <= clk3_count + 1;
+        end
     end
+
+    else if (arb_seq_count == 2) begin
+        if(clk3_count == 1) begin
+            update_sequence <= 3'b000;
+            clk3_count <= clk3_count + 1;
+        end 
+        else if (clk3_count == 2) begin
+            update_sequence <= 3'b001;
+            arb_seq_count <= 0;
+            clk3_count <= 0;
+        end else begin
+            update_sequence <= 3'b100;
+            clk3_count <= clk3_count + 1;
+        end
+    end
+
     else begin
         update_sequence <= 3'b000;
-        count <= 0;
+        arb_seq_count <= 0;
+        clk3_count <= 0;
     end
 end
 
@@ -83,48 +135,50 @@ pbit  #(.INIT(3000000000)) bit3 (.CLK(CLK), .RST(RST), .z(z3), .pbit_val(out3), 
 
 
 initial begin
-    w1[2] = 7'b0_0010_00 //  2;
-    w1[1] = 7'b1_0001_00 // -1;
-    w1[0] = 7'b0_0000_00 //  0;
+    w1[2] = 7'b0_0010_00; //  2;
+    w1[1] = 7'b1_0001_00; // -1;
+    w1[0] = 7'b0_0000_00; //  0;
 
-    w2[2] = 7'b0_0010_00 //  2;
-    w2[1] = 7'b0_0000_00 //  0;
-    w2[0] = 7'b1_0001_00 // -1;
+    w2[2] = 7'b0_0010_00; //  2;
+    w2[1] = 7'b0_0000_00; //  0;
+    w2[0] = 7'b1_0001_00; // -1;
 
-    w3[2] = 7'b0_0000_00 //  0;
-    w3[1] = 7'b0_0010_00 //  2;
-    w3[0] = 7'b0_0010_00 //  2;
+    w3[2] = 7'b0_0000_00; //  0;
+    w3[1] = 7'b0_0010_00; //  2;
+    w3[0] = 7'b0_0010_00; //  2;
      
-    b1 = 7'b0_0001_00    //  1;
-    b2 = 7'b0_0001_00    //  1;
-    b3 = 7'b1_0010_00    // -2;
+    b1 = 7'b0_0001_00;    //  1;
+    b2 = 7'b0_0001_00;    //  1;
+    b3 = 7'b1_0010_00;    // -2;
 end
 
 // using qadd and qmult to compute each z means declaring 2 adder instances (with dependency) and 2 independent multiplier instances:
 
 // multiplier signals:
 wire [N-1:0] mult1_res_z3, mult2_res_z3;
-reg mult1_ovr_z3, mult2_ovr_z3;
+wire mult1_ovr_z3, mult2_ovr_z3;
 
 wire [N-1:0] add1_res_z3;
+wire add1_ovr_z3, add2_ovr_z3;
+wire [N-1:0] z3_f;
 
 // z3 = ((w1[2]*m_1) + (w2[2]*m_2) + b3) ----> for your reference
 // A + B -> C                            ----> for your reference
 qmult #(.Q(Q), .N(N)) mult1_z3 (.i_multiplicand(w1[2]), .i_multiplier(m_1), .o_result(mult1_res_z3), .ovr(mult1_ovr_z3));
 qmult #(.Q(Q), .N(N)) mult2_z3 (.i_multiplicand(w2[2]), .i_multiplier(m_2), .o_result(mult2_res_z3), .ovr(mult2_ovr_z3));
 
-qadd #(.Q(Q), .N(N)) add1_z3 (.a(mult1_res_z3), .b(mult2_res_z3), .c(add1_res_z3));
-qadd #(.Q(Q), .N(N)) add2_z3 (.a(add1_res_z3), .b(b3), .c(z3_t));
+qadd #(.Q(Q), .N(N)) add1_z3 (.a(mult1_res_z3), .b(mult2_res_z3), .c(add1_res_z3), .ovr(add1_ovr_z3));
+qadd #(.Q(Q), .N(N)) add2_z3 (.a(add1_res_z3), .b(b3), .c(z3_f), .ovr(add2_ovr_z3));
 
 
 
 // CLAMPING CIRCUIT FOR z3
-always @(z3_t) begin
-
-    if(z3_t[N-1] == 1'b1 && z3_t[N-2:0] > 6'b100000) begin      // if z3 is -ve and its abs mag is greater than 8
+always @(z3_f) begin
+    z3_t = z3_f;
+    if(z3_t[N-1] == 1'b1 && ((z3_t[N-2:0] > 6'b100000) || (add1_ovr_z3 | add2_ovr_z3))) begin      // if z3 is -ve and its abs mag is greater than 8
         z3_t = 7'b1100000; // -8
     end
-    else if (z3_t[N-1] == 1'b0 && z3_t[N-2:0] > 6'b011111) begin // if z3 is +ve and its abs mag is greater than 7.75
+    else if (z3_t[N-1] == 1'b0 && ((z3_t[N-2:0] > 6'b011111) || (add1_ovr_z3 | add2_ovr_z3))) begin // if z3 is +ve and its abs mag is greater than 7.75
         z3_t = 7'b0011111; // 7.75
     end
     else z3_t = z3_t;      // no change
@@ -135,25 +189,27 @@ assign z3 = z3_t;
 
 // multiplier signals:
 wire [N-1:0] mult1_res_z2, mult2_res_z2;
-reg mult1_ovr_z2, mult2_ovr_z2;
+wire mult1_ovr_z2, mult2_ovr_z2;
 
 wire [N-1:0] add1_res_z2;
+wire add1_ovr_z2, add2_ovr_z2;
 
+wire [N-1:0] z2_f;
 // C + A -> B                            ----> for your reference
 qmult #(.Q(Q), .N(N)) mult1_z2 (.i_multiplicand(w3[1]), .i_multiplier(m_3), .o_result(mult1_res_z2), .ovr(mult1_ovr_z2));
 qmult #(.Q(Q), .N(N)) mult2_z2 (.i_multiplicand(w1[1]), .i_multiplier(m_1), .o_result(mult2_res_z2), .ovr(mult2_ovr_z2));
 
-qadd #(.Q(Q), .N(N)) add1_z2 (.a(mult1_res_z2), .b(mult2_res_z2), .c(add1_res_z2));
-qadd #(.Q(Q), .N(N)) add2_z2 (.a(add1_res_z2), .b(b2), .c(z2_t));
+qadd #(.Q(Q), .N(N)) add1_z2 (.a(mult1_res_z2), .b(mult2_res_z2), .c(add1_res_z2), .ovr(add1_ovr_z2));
+qadd #(.Q(Q), .N(N)) add2_z2 (.a(add1_res_z2), .b(b2), .c(z2_f), .ovr(add2_ovr_z2));
 
 
 // CLAMPING CIRCUIT FOR z2
-always @(z2_t) begin
-
-    if(z2_t[N-1] == 1'b1 && z2_t[N-2:0] > 6'b100000) begin 
+always @(z2_f) begin
+    z2_t = z2_f;
+    if(z2_t[N-1] == 1'b1 && ((z2_t[N-2:0] > 6'b100000) || (add1_ovr_z2 | add2_ovr_z2))) begin 
         z2_t = 7'b1100000; // -8
     end
-    else if (z2_t[N-1] == 1'b0 && z2_t[N-2:0] > 6'b011111) begin
+    else if (z2_t[N-1] == 1'b0 && ((z2_t[N-2:0] > 6'b011111) || (add1_ovr_z2 | add2_ovr_z2))) begin
         z2_t = 7'b0011111; // 7.75
     end
     else z2_t = z2_t;      // no change
@@ -164,25 +220,27 @@ assign z2 = z2_t;
 
 // multiplier signals:
 wire [N-1:0] mult1_res_z1, mult2_res_z1;
-reg mult1_ovr_z1, mult2_ovr_z1;
+wire mult1_ovr_z1, mult2_ovr_z1;
 
 wire [N-1:0] add1_res_z1;
+wire add1_ovr_z1, add2_ovr_z1;
 
+wire [N-1:0] z1_f;
 // B + C -> A                           ----> for your reference
 qmult #(.Q(Q), .N(N)) mult1_z1 (.i_multiplicand(w2[0]), .i_multiplier(m_2), .o_result(mult1_res_z1), .ovr(mult1_ovr_z1));
 qmult #(.Q(Q), .N(N)) mult2_z1 (.i_multiplicand(w3[0]), .i_multiplier(m_3), .o_result(mult2_res_z1), .ovr(mult2_ovr_z1));
 
-qadd #(.Q(Q), .N(N)) add1_z1 (.a(mult1_res_z1), .b(mult2_res_z1), .c(add1_res_z1));
-qadd #(.Q(Q), .N(N)) add2_z1 (.a(add1_res_z1), .b(b1), .c(z1_t));
+qadd #(.Q(Q), .N(N)) add1_z1 (.a(mult1_res_z1), .b(mult2_res_z1), .c(add1_res_z1), .ovr(add1_ovr_z1));
+qadd #(.Q(Q), .N(N)) add2_z1 (.a(add1_res_z1), .b(b1), .c(z1_f), .ovr(add2_ovr_z1));
 
 
 // CLAMPING CIRCUIT FOR z1
-always @(z1_t) begin
-
-    if(z1_t[N-1] == 1'b1 && z1_t[N-2:0] > 6'b100000) begin    
+always @(z1_f) begin
+    z1_t = z1_f;
+    if(z1_t[N-1] == 1'b1 && ((z1_t[N-2:0] > 6'b100000) || (add1_ovr_z1 | add2_ovr_z1))) begin    
         z1_t = 7'b1100000; // -8
     end
-    else if (z1_t[N-1] == 1'b0 && z1_t[N-2:0] > 6'b011111) begin 
+    else if (z1_t[N-1] == 1'b0 && ((z1_t[N-2:0] > 6'b011111) || (add1_ovr_z1 | add2_ovr_z1))) begin 
         z1_t = 7'b0011111; // 7.75
     end
     else z1_t = z1_t;      // no change

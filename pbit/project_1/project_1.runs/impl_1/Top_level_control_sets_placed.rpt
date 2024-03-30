@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Wed Mar 27 04:33:52 2024
+| Date         : Sat Mar 30 17:37:51 2024
 | Host         : ullas-aspire5 running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_control_sets -verbose -file Top_level_control_sets_placed.rpt
 | Design       : Top_level
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    12 |
-|    Minimum number of control sets                        |    12 |
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    33 |
+| Unused register locations in slices containing registers |    14 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    12 |
-| >= 0 to < 4        |     1 |
-| >= 4 to < 6        |     4 |
+| Total control sets |     9 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     0 |
-| >= 8 to < 10       |     0 |
+| >= 8 to < 10       |     1 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     7 |
+| >= 16              |     8 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,12 +58,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               8 |            3 |
+| No           | No                    | No                     |               8 |            5 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              97 |           28 |
-| Yes          | No                    | No                     |              14 |            5 |
+| No           | Yes                   | No                     |             130 |           40 |
+| Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              96 |           24 |
+| Yes          | Yes                   | No                     |              96 |           23 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -73,18 +73,15 @@ Table of Contents
 +----------------+--------------------+-----------------------------------+------------------+----------------+
 |  Clock Signal  |    Enable Signal   |          Set/Reset Signal         | Slice Load Count | Bel Load Count |
 +----------------+--------------------+-----------------------------------+------------------+----------------+
-|  CLK_IBUF_BUFG |                    |                                   |                2 |              3 |
-|  CLK_IBUF_BUFG | update_sequence[2] |                                   |                1 |              4 |
-|  CLK_DIV2      |                    |                                   |                1 |              5 |
-|  CLK_IBUF_BUFG | update_sequence[1] |                                   |                2 |              5 |
-|  CLK_IBUF_BUFG | update_sequence[0] |                                   |                2 |              5 |
-|  CLK_IBUF_BUFG |                    | bit3/LFSR_inst/Out[31]_i_1__1_n_0 |                3 |             19 |
-|  CLK_IBUF_BUFG |                    | bit2/LFSR_inst/Out[31]_i_1__0_n_0 |                5 |             22 |
-|  CLK_IBUF_BUFG |                    | RST_IBUF                          |               11 |             25 |
-|  CLK_IBUF_BUFG |                    | bit1/LFSR_inst/Out[31]            |                9 |             31 |
-|  CLK_IBUF_BUFG | bit1/LFSR_inst/Q_0 | RST_IBUF                          |                8 |             32 |
-|  CLK_IBUF_BUFG | bit2/LFSR_inst/Q_0 | RST_IBUF                          |                8 |             32 |
+|  CLK_IBUF_BUFG |                    |                                   |                5 |              8 |
+|  CLK_IBUF_BUFG |                    | bit1/LFSR_inst/Out[31]_i_1_n_0    |                4 |             19 |
+|  CLK_IBUF_BUFG |                    | bit2/LFSR_inst/Out[31]_i_1__0_n_0 |                6 |             19 |
+|  CLK_IBUF_BUFG |                    | bit3/LFSR_inst/Out[30]_i_1__0_n_0 |                5 |             20 |
+|  CLK_IBUF_BUFG |                    | clk3_count[31]_i_1_n_0            |                8 |             32 |
+|  CLK_IBUF_BUFG | bit1/LFSR_inst/Q_0 | RST_IBUF                          |                7 |             32 |
 |  CLK_IBUF_BUFG | bit3/LFSR_inst/Q_0 | RST_IBUF                          |                8 |             32 |
+|  CLK_IBUF_BUFG | bit2/LFSR_inst/Q_0 | RST_IBUF                          |                8 |             32 |
+|  CLK_IBUF_BUFG |                    | RST_IBUF                          |               17 |             40 |
 +----------------+--------------------+-----------------------------------+------------------+----------------+
 
 

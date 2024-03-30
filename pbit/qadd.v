@@ -26,21 +26,28 @@ module qadd #(
 	(
     input [N-1:0] a,
     input [N-1:0] b,
-    output [N-1:0] c
+    output [N-1:0] c,
+	output reg  ovr
     );
 
 reg [N-1:0] res;
+reg [N-1:0] ores; // for same sign sum
 
 assign c = res;
 
 always @(a,b) begin
 	// both negative or both positive
 	if(a[N-1] == b[N-1]) begin						//	Since they have the same sign, absolute magnitude increases
-		res[N-2:0] = a[N-2:0] + b[N-2:0];		//		So we just add the two numbers
-		res[N-1] = a[N-1];							//		and set the sign appropriately...  Doesn't matter which one we use, 
-															//		they both have the same sign
-															//	Do the sign last, on the off-chance there was an overflow...  
-		end												//		Not doing any error checking on this...
+		ores[N-1:0] = a[N-2:0] + b[N-2:0];			//	So we just add the two numbers
+		if(ores[N-1] == 1) begin
+			ovr = 1;
+		end else begin
+			ovr = 0;
+		end
+		res[N-1:0] = {a[N-1], ores[N-2:0]};			//		and set the sign appropriately...  Doesn't matter which one we use, 
+													//		they both have the same sign
+													//		the overflown bit of the sum is removed as we set the overflow bit high
+	end												
 	//	one of them is negative...
 	else if(a[N-1] == 0 && b[N-1] == 1) begin		//	subtract a-b
 		if( a[N-2:0] > b[N-2:0] ) begin					//	if a is greater than b,

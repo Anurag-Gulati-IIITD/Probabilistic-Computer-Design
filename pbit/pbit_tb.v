@@ -81,7 +81,7 @@ module pbit_tb();
 
 
         // Apply reset
-        #30 RST = 0;
+        #10 RST = 0;
 
 
         // Assign actual values for the J matrix

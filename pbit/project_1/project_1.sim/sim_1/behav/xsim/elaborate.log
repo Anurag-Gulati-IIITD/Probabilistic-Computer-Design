@@ -14,7 +14,9 @@ Compiling module xil_defaultlib.LFSR(INIT=2000000000)
 Compiling module xil_defaultlib.pbit(INIT=2000000000)
 Compiling module xil_defaultlib.LFSR(INIT=-1294967296)
 Compiling module xil_defaultlib.pbit(INIT=-1294967296)
-Compiling module xil_defaultlib.Top_level_default
+Compiling module xil_defaultlib.qmult(Q=2,N=7)
+Compiling module xil_defaultlib.qadd(Q=2,N=7)
+Compiling module xil_defaultlib.Top_level
 Compiling module xil_defaultlib.pbit_tb
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot pbit_tb_behav
