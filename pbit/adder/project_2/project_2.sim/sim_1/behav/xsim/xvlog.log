@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFSR
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pbit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qadd
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module qmult
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tanh_LUT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_level
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pbit_tb

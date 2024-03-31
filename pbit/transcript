@@ -1,84 +1,136 @@
-# Loading project project_seq_test
-# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
 # Loading project pbit
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project full_adder
 # Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
-# 6 compiles, 0 failed with no errors.
-vsim work.pbit_tb
-# vsim work.pbit_tb 
-# Start time: 04:43:45 on Mar 30,2024
-# Loading work.pbit_tb
-# Loading work.Top_level
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 156
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 157
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 159
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 160
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 188
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 189
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 191
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 192
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 219
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qmult' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 220
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 222
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# ** Error: (vsim-3033) Instantiation of 'qadd' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT File: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v Line: 223
-#         Searched libraries:
-#             /home/ullas/Probabilistic-Computer-Design/pbit/work
-# Error loading design
-# End time: 04:43:45 on Mar 30,2024, Elapsed time: 0:00:00
-# Errors: 12, Warnings: 2
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
 # Compile of qadd.v was successful.
 # Compile of qmult.v was successful.
-# 8 compiles, 0 failed with no errors.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 6 errors.
+# 6 compiles, 1 failed with 6 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 5 errors.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 5 errors.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 5 errors.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 7 errors.
+# 6 compiles, 1 failed with 7 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 5 errors.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 3 errors.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 3 errors.
+# 6 compiles, 2 failed with 4 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 2 errors.
+# 6 compiles, 2 failed with 3 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 4 errors.
+# 6 compiles, 2 failed with 5 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 2 failed with 2 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful with warnings.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful with warnings.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful with warnings.
+# Compile of p_bit.v was successful with warnings.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
 vsim work.pbit_tb
 # vsim work.pbit_tb 
-# Start time: 04:44:16 on Mar 30,2024
+# Start time: 02:37:28 on Apr 01,2024
 # Loading work.pbit_tb
 # Loading work.Top_level
 # Loading work.pbit
@@ -86,36 +138,337 @@ vsim work.pbit_tb
 # Loading work.tanh_LUT
 # Loading work.qmult
 # Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 265
+# Error loading design
+# End time: 02:37:28 on Apr 01,2024, Elapsed time: 0:00:00
+# Errors: 40, Warnings: 24
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v failed with 1 errors.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful with warnings.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 02:56:23 on Apr 01,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 263
+# Error loading design
+# End time: 02:56:23 on Apr 01,2024, Elapsed time: 0:00:00
+# Errors: 40, Warnings: 3
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 03:02:27 on Apr 01,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[0]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[1]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[2]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[3]/genblk1[4]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[0]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[1]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[2]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'o_result'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'ovr'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/TT/multipliers[4]/genblk1[3]/genblk1/mult_z File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v Line: 259
+# Error loading design
+# End time: 03:02:27 on Apr 01,2024, Elapsed time: 0:00:00
+# Errors: 40, Warnings: 2
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 04:36:20 on Apr 01,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+add wave -position end  sim:/pbit_tb/CLK_PERIOD
+add wave -position end  sim:/pbit_tb/P
 add wave -position end  sim:/pbit_tb/CLK
 add wave -position end  sim:/pbit_tb/RST
-add wave -position end  sim:/pbit_tb/m3
-add wave -position end  sim:/pbit_tb/m2
-add wave -position end  sim:/pbit_tb/m1
+add wave -position end  sim:/pbit_tb/p_out
 add wave -position end  sim:/pbit_tb/count
-add wave -position end  sim:/pbit_tb/clk_div6
+add wave -position end  sim:/pbit_tb/clk_div15
 add wave -position end  sim:/pbit_tb/count2
-add wave -position end  sim:/pbit_tb/TT/CLK
-add wave -position end  sim:/pbit_tb/TT/RST
-add wave -position end  sim:/pbit_tb/TT/out1
-add wave -position end  sim:/pbit_tb/TT/out2
-add wave -position end  sim:/pbit_tb/TT/out3
-add wave -position end  sim:/pbit_tb/TT/z1
-add wave -position end  sim:/pbit_tb/TT/z2
-add wave -position end  sim:/pbit_tb/TT/z3
-add wave -position 8  sim:/pbit_tb/TT/update_sequence
-add wave -position 12  sim:/pbit_tb/TT/m_3
-add wave -position 13  sim:/pbit_tb/TT/m_2
-add wave -position 14  sim:/pbit_tb/TT/m_1
+add wave -position end  sim:/pbit_tb/hmm
+add wave -position end  sim:/pbit_tb/i
+add wave -position 3  sim:/pbit_tb/TT/update_sequence
 run
 # Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
 # Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
 # Compile of qadd.v was successful.
 # Compile of qmult.v was successful.
-# 8 compiles, 0 failed with no errors.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 # Loading work.pbit_tb
@@ -126,90 +479,3 @@ restart
 # Loading work.qmult
 # Loading work.qadd
 run
-restart
-run
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
-# Compile of qadd.v was successful.
-# Compile of qmult.v was successful.
-# 8 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_tb
-# Loading work.Top_level
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-# Loading work.qmult
-# Loading work.qadd
-run
-add wave -position end  sim:/pbit_tb/TT/bit1/tanh_out_reg
-restart
-run
-add wave -position 24  sim:/pbit_tb/TT/z1_f
-restart
-run
-add wave -position 25  sim:/pbit_tb/TT/w2
-add wave -position 26  sim:/pbit_tb/TT/w3
-add wave -position 27  sim:/pbit_tb/TT/b1
-restart
-run
-add wave -position 25  sim:/pbit_tb/TT/mult2_res_z1
-restart
-run
-add wave -position 25  sim:/pbit_tb/TT/mult1_res_z1
-restart
-run
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
-# Compile of qadd.v was successful.
-# Compile of qmult.v was successful.
-# 8 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_tb
-# Loading work.Top_level
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-# Loading work.qmult
-# Loading work.qadd
-run
-add wave -position 25  sim:/pbit_tb/TT/mult2_z1/i_multiplicand
-add wave -position 26  sim:/pbit_tb/TT/mult2_z1/i_multiplier
-restart
-run
-add wave -position 25  sim:/pbit_tb/TT/mult2_z1/ovr
-add wave -position 26  sim:/pbit_tb/TT/mult2_z1/r_result
-add wave -position 27  sim:/pbit_tb/TT/mult2_z1/r_RetVal
-restart
-run
-# Compile of LFSR.v was successful.
-# Compile of pbit_tb.v was successful.
-# Compile of p_bit.v was successful.
-# Compile of tanh_LUT.v was successful.
-# Compile of top_level.v was successful with warnings.
-# Compile of pbit_test_tb.v was successful.
-# Compile of qadd.v was successful.
-# Compile of qmult.v was successful.
-# 8 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.pbit_tb
-# Loading work.Top_level
-# Loading work.pbit
-# Loading work.LFSR
-# Loading work.tanh_LUT
-# Loading work.qmult
-# Loading work.qadd
-run
-# End time: 16:10:19 on Mar 30,2024, Elapsed time: 11:26:03
-# Errors: 0, Warnings: 1

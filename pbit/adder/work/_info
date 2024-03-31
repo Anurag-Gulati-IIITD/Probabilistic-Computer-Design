@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ullas/Probabilistic-Computer-Design/pbit
+vLFSR
+Z0 !s110 1711926822
+!i10b 1
+!s100 _LOK[l=2D:24ZoRbL;;1[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IedJE5<do56]nPhJG8Zi_e0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ullas/Probabilistic-Computer-Design/pbit/adder
+w1711905537
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v
+!i122 116
+L0 23 42
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711926822.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@l@f@s@r
+vpbit
+R0
+!i10b 1
+!s100 W>C[4J`;RgGfa2k;F:7k<0
+R1
+IZ[P3`BbC3AACBFAl9>J4@2
+R2
+R3
+w1711921436
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v
+!i122 117
+L0 1 48
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v|
+!i113 1
+R6
+R7
+vpbit_tb
+R0
+!i10b 1
+!s100 ^2aalRKfeY_@;Pd;JGF563
+R1
+Ii@[_D<i9MPH3T;Qe]FHkW3
+R2
+R3
+w1711925616
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v
+!i122 122
+L0 3 77
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v|
+!i113 1
+R6
+R7
+vqadd
+R0
+!i10b 1
+!s100 AS:m9VTWKM?mJHkV]aVo73
+R1
+I6ThC;4C4n[5eheJ:6<Oj:1
+R2
+R3
+Z8 w1711801244
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v
+!i122 118
+L0 21 59
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v|
+!i113 1
+R6
+R7
+vqmult
+R0
+!i10b 1
+!s100 0ZSd?=5eXROQ;5M7Z^9Bg2
+R1
+IDm3Fd]dQ?;kC9oo;g@V6f2
+R2
+R3
+w1711922126
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
+!i122 119
+L0 21 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v|
+!i113 1
+R6
+R7
+vtanh_LUT
+R0
+!i10b 1
+!s100 Xie8VWnaX0>nGCMBb92YX0
+R1
+I95@V28W61>X=h6R^FK@P=3
+R2
+R3
+R8
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
+!i122 120
+L0 1 79
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v|
+!i113 1
+R6
+R7
+ntanh_@l@u@t
+vTop_level
+R0
+!i10b 1
+!s100 Bc<W[]oTlGgTSnhb`iIA<0
+R1
+IlO:dX5P?9A0LUKohV^1]^2
+R2
+R3
+w1711926732
+8/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v
+!i122 121
+L0 2 242
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v|
+!i113 1
+R6
+R7
+n@top_level

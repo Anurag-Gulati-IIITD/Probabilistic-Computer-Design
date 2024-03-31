@@ -5,4 +5,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	seq_test
 
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/seq_test_tb.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/seq_test_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_test_tb
+
+Top level modules:
+	seq_test_tb
+
 } {} {}}

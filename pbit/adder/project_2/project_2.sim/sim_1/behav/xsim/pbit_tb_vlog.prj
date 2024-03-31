@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../LFSR.v" \
+"../../../../../p_bit.v" \
+"../../../../../qadd.v" \
+"../../../../../qmult.v" \
+"../../../../../tanh_LUT.v" \
+
+sv xil_defaultlib  \
+"../../../../../top_level.v" \
+
+verilog xil_defaultlib  \
+"../../../../../pbit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -15,8 +15,8 @@ module seq_test_tb(
         CLK = 0; 
         RST = 1;
         #10 RST = 0;
-        #120 RST = 1;
-        #30 RST = 0;
+        // #120 RST = 1;
+        // #30 RST = 0;
 
     end
 endmodule

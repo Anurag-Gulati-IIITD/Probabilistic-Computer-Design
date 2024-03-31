@@ -1,0 +1,12 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v,1711905537,verilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v,,LFSR,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v,1711921436,verilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v,,pbit,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v,1711925616,verilog,,,,pbit_tb,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v,1711801244,verilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v,,qadd,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v,1711922126,verilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v,,qmult,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v,1711801244,verilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v,,tanh_LUT,,,,,,,,
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v,1711924149,systemVerilog,,/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v,,Top_level,,,,,,,,
