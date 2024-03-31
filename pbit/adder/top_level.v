@@ -191,7 +191,7 @@ wire [P:0] mult_ovr_z [P:0];
 
 wire [N-1:0] add_res_z [P:0][P-1:0]; // (P+1) * ((P+1)-1) = 5 * 4 products, therefore, 4 : 0, 2 : 0 dim sum output
 wire [P-1:0] add_ovr_z [P:0];
-reg [P:0] sum_overflow; // to be used as a logic to check if |(add_ovr_z[i] == 1)
+reg [P:0] sum_overflow; // to be used as a logic to check if |(add_ovr_z[i]) == 1
 
 genvar j, k;
 generate // : generates 5 * 5 = 25 qmults
