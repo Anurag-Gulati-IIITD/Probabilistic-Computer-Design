@@ -479,3 +479,21 @@ restart
 # Loading work.qmult
 # Loading work.qadd
 run
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+run

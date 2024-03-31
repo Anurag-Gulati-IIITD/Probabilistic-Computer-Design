@@ -12,10 +12,9 @@ localparam I = 4;
 
 // pbit outputs
 // wire signed [N-1:0] z[P:0];
-reg signed [N-1:0] z[P:0];
+reg [N-1:0] z[P:0];
 
-reg signed [N-1 : 0] w[P:0][P:0];
-reg signed [N-1 : 0] b1, b2, b3;
+reg [N-1 : 0] w[P:0][P:0];
 reg [P:0] update_sequence;
 reg [N-1:0] m [P:0];
 
@@ -186,12 +185,12 @@ end
 
 
 // multiplier-adder signals:
-wire [N-1:0] mult_res_z [P:0][P:0]; // (P+1) * (P+1) = 5 * 5 products, therefore, 4 : 0, 3 : 0 dim product output
+wire [N-1:0] mult_res_z [P:0][P:0]; // (P+1) * (P+1) = 5 * 5 products, therefore, 4 : 0, 4 : 0 dim product output
 wire [P:0] mult_ovr_z [P:0];
 
-wire [N-1:0] add_res_z [P:0][P-1:0]; // (P+1) * ((P+1)-1) = 5 * 4 products, therefore, 4 : 0, 2 : 0 dim sum output
+wire [N-1:0] add_res_z [P:0][P-1:0]; // (P+1) * ((P+1)-1) = 5 * 4 products, therefore, 4 : 0, 3 : 0 dim sum output
 wire [P-1:0] add_ovr_z [P:0];
-reg [P:0] sum_overflow; // to be used as a logic to check if |(add_ovr_z[i] == 1)
+reg [P:0] sum_overflow; // to be used as a logic to check if |(add_ovr_z[i]) == 1
 
 genvar j, k;
 generate // : generates 5 * 5 = 25 qmults
@@ -200,7 +199,7 @@ generate // : generates 5 * 5 = 25 qmults
         for(k=0; k<P+1; k=k+1) begin
             // always @(*)
             //     p = (j != k) ? p + 1 : p;
-            qmult #(.Q(Q), .N(N)) mult_z (.i_multiplicand(w[j][k]), .i_multiplier(m[j]), .o_result(mult_res_z[j][k]), .ovr(mult_ovr_z[j][k]));
+            qmult #(.Q(Q), .N(N)) mult_z (.i_multiplicand(w[j][k]), .i_multiplier(m[k]), .o_result(mult_res_z[j][k]), .ovr(mult_ovr_z[j][k]));
         end
     end 
 endgenerate
