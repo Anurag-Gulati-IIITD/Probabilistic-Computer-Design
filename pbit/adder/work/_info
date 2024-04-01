@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/ullas/Probabilistic-Computer-Design/pbit
 vLFSR
-Z0 !s110 1711928928
+Z0 !s110 1711965744
 !i10b 1
 !s100 _LOK[l=2D:24ZoRbL;;1[1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 d/home/ullas/Probabilistic-Computer-Design/pbit/adder
 w1711905537
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v
-!i122 123
+!i122 168
 L0 23 42
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1711928928.000000
+Z5 !s108 1711965744.000000
 !s107 /home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/adder/LFSR.v|
 !i113 1
@@ -44,7 +44,7 @@ R3
 w1711921436
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v
-!i122 124
+!i122 169
 L0 1 48
 R4
 r1
@@ -59,16 +59,16 @@ R7
 vpbit_tb
 R0
 !i10b 1
-!s100 ^2aalRKfeY_@;Pd;JGF563
+!s100 `IkKPZZO_e6R0GkgcgDTe2
 R1
-Ii@[_D<i9MPH3T;Qe]FHkW3
+IUQ2YaBHe:JEK>b3]?IHV[0
 R2
 R3
-w1711925616
+w1711965741
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v
-!i122 129
-L0 3 77
+!i122 174
+L0 3 84
 R4
 r1
 !s85 0
@@ -87,10 +87,10 @@ R1
 I6ThC;4C4n[5eheJ:6<Oj:1
 R2
 R3
-Z8 w1711801244
+w1711801244
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/qadd.v
-!i122 125
+!i122 170
 L0 21 59
 R4
 r1
@@ -113,7 +113,7 @@ R3
 w1711922126
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
-!i122 126
+!i122 171
 L0 21 45
 R4
 r1
@@ -133,10 +133,10 @@ R1
 I95@V28W61>X=h6R^FK@P=3
 R2
 R3
-R8
+w1711930645
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
-!i122 127
+!i122 172
 L0 1 79
 R4
 r1
@@ -152,15 +152,15 @@ ntanh_@l@u@t
 vTop_level
 R0
 !i10b 1
-!s100 _ndTV8ajY_VCHf4jX>>jn3
+!s100 m4IaF3XB5^?T_KF@Z?Qb;2
 R1
-Ii`8;2j1MSjJW[[aD?NR2C2
+IQm3A]GI8R0eN8ARFkFFmz2
 R2
 R3
-w1711928914
+w1711930170
 8/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v
-!i122 128
+!i122 173
 L0 2 241
 R4
 r1

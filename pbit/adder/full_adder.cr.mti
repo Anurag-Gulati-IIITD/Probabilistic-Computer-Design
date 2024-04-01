@@ -1,4 +1,11 @@
-/home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
+/home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tanh_LUT
+
+Top level modules:
+	tanh_LUT
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/qmult.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module qmult
 
@@ -12,19 +19,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	LFSR
 
-} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/tanh_LUT.v
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/top_level.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tanh_LUT
+-- Compiling module Top_level
 
 Top level modules:
-	tanh_LUT
-
-} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module pbit_tb
-
-Top level modules:
-	pbit_tb
+	Top_level
 
 } {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/adder/p_bit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

@@ -9,6 +9,7 @@ module pbit_tb();
     // Signals
     reg CLK, RST;
     wire [P:0] p_out;
+    reg [P:0] rev_p_out;
     integer count [2**(P+1) - 1 : 0];
     reg clk_div15 = 1; // no_of_pbits * cycles_per_pbit_update = 5 * 3
     reg [3 : 0] count2;
@@ -43,10 +44,16 @@ module pbit_tb();
         end
     end
 
+    always @(*) begin   :   bit_reverse_block
+        integer mm;
+        for (mm = 0; mm < P+1; mm = mm + 1) begin
+            rev_p_out[mm] = p_out[P-mm]; 
+        end
+    end 
     integer hmm;
     always @(posedge clk_div15) begin
         for(hmm = 0; hmm < 2**(P+1); hmm = hmm + 1) begin
-            if (p_out == hmm) begin
+            if (rev_p_out == hmm) begin
                 count[hmm] <= count[hmm] + 1;
             end
         end

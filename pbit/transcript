@@ -497,3 +497,92 @@ restart
 # Loading work.qmult
 # Loading work.qadd
 run
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+# ** Fatal: (vsim-3373) Range of part-select [0:4] into 'p_out' [4:0] is reversed.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb File: /home/ullas/Probabilistic-Computer-Design/pbit/adder/pbit_tb.v Line: 47
+# FATAL ERROR while loading design
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v failed with 7 errors.
+# 7 compiles, 1 failed with 7 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v failed with 7 errors.
+# 7 compiles, 1 failed with 7 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# Compile of pbit_tb.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 04:36:20 on Apr 01,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+run
