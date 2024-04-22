@@ -32,7 +32,7 @@ module multiplier_result_interpreter
    
     initial begin : result_count_array_init
         integer i;
-        for (i = 0 ; i < 2**(P+1) ; i = i + 1) begin
+        for (i = 0 ; i < 2**(P2+1) ; i = i + 1) begin
             count[i] = 0;
         end
     end
@@ -60,7 +60,7 @@ module multiplier_result_interpreter
     always @(posedge CLK) begin : result_array_update
         integer idx;
         if (decision_count == decision_point + 1) begin
-            for (idx = 0 ; idx < 2**(P+1) ; idx = idx + 1) begin
+            for (idx = 0 ; idx < 2**(P2+1) ; idx = idx + 1) begin
                 count[idx] = 0;
             end
         end
