@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/ullas/NOC_Vectorizer
 vLFSR
-Z0 !s110 1711802467
+Z0 !s110 1712681969
 !i10b 1
 !s100 P:MAZoSB76IeJOd@@lJJ80
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 d/home/ullas/Probabilistic-Computer-Design/pbit
 w1711363746
 8/home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v
-!i122 454
+!i122 462
 L0 23 42
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1711802467.000000
+Z5 !s108 1712681969.000000
 !s107 /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v|
 !i113 1
@@ -44,7 +44,7 @@ R3
 w1711752211
 8/home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/p_bit.v
-!i122 456
+!i122 464
 L0 1 48
 R4
 r1
@@ -67,7 +67,7 @@ R3
 w1711753933
 8/home/ullas/Probabilistic-Computer-Design/pbit/pbit_tb.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/pbit_tb.v
-!i122 455
+!i122 463
 L0 3 97
 R4
 r1
@@ -80,7 +80,7 @@ R5
 R6
 R7
 vpbit_test
-Z8 !s110 1711802468
+Z8 !s110 1712681970
 !i10b 1
 !s100 >:A3<ID6?]GGKQH>lH_i:3
 R1
@@ -90,13 +90,13 @@ R3
 w1711483062
 8/home/ullas/Probabilistic-Computer-Design/pbit/pbit_test_tb.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/pbit_test_tb.v
-!i122 459
+!i122 467
 L0 3 43
 R4
 r1
 !s85 0
 31
-Z9 !s108 1711802468.000000
+R5
 !s107 /home/ullas/Probabilistic-Computer-Design/pbit/pbit_test_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/pbit_test_tb.v|
 !i113 1
@@ -113,13 +113,13 @@ R3
 w1711732888
 8/home/ullas/Probabilistic-Computer-Design/pbit/qadd.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/qadd.v
-!i122 460
+!i122 468
 L0 21 59
 R4
 r1
 !s85 0
 31
-R9
+Z9 !s108 1712681970.000000
 !s107 /home/ullas/Probabilistic-Computer-Design/pbit/qadd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/qadd.v|
 !i113 1
@@ -136,7 +136,7 @@ R3
 w1711792358
 8/home/ullas/Probabilistic-Computer-Design/pbit/qmult.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/qmult.v
-!i122 461
+!i122 469
 L0 21 45
 R4
 r1
@@ -205,7 +205,7 @@ R3
 w1711755386
 8/home/ullas/Probabilistic-Computer-Design/pbit/tanh_LUT.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/tanh_LUT.v
-!i122 457
+!i122 465
 L0 1 79
 R4
 r1
@@ -219,7 +219,7 @@ R6
 R7
 ntanh_@l@u@t
 vTop_level
-R8
+R0
 !i10b 1
 !s100 nmZm8NNGneYj7]RYoRmd`1
 R1
@@ -229,7 +229,7 @@ R3
 w1711802462
 8/home/ullas/Probabilistic-Computer-Design/pbit/top_level.v
 F/home/ullas/Probabilistic-Computer-Design/pbit/top_level.v
-!i122 458
+!i122 466
 L0 1 250
 R4
 r1

@@ -1,0 +1,244 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier
+vLFSR
+Z0 !s110 1713808951
+!i10b 1
+!s100 _LOK[l=2D:24ZoRbL;;1[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5A]N=NlhmPN5XGC_NRFAK0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result
+Z4 w1713206296
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v
+!i122 407
+L0 23 42
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1713808951.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@l@f@s@r
+vmultiplier_result_interpreter
+R0
+!i10b 1
+!s100 >XmkHNXiBkF5R]?FVFa]G0
+R1
+Ia6=R0aAGVn0@f`5eGOATS1
+R2
+R3
+w1713808945
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v
+!i122 408
+L0 3 120
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v|
+!i113 1
+R7
+R8
+vmultiplier_two_bit
+Z9 !s110 1713808952
+!i10b 1
+!s100 jiV<2A5@]IHVOUAT?m<>_2
+R1
+I=<EW0z5TVROPfR_ba`cDJ2
+R2
+R3
+w1713805351
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v
+!i122 409
+L0 2 30
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v|
+!i113 1
+R7
+R8
+vpbit
+R9
+!i10b 1
+!s100 =e`3ASNOiM9f8BR?C2KG31
+R1
+I8PkMC^C?VzgE^2hlFbMhH0
+R2
+R3
+w1713777095
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v
+!i122 410
+L0 1 48
+R5
+r1
+!s85 0
+31
+Z10 !s108 1713808952.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v|
+!i113 1
+R7
+R8
+vpbit_tb
+R9
+!i10b 1
+!s100 ?W2;a=O8J2e`[O^oXVK]G3
+R1
+I=L>N;ah2Yhn0MMJ=G:DaD2
+R2
+R3
+w1713807552
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v
+!i122 415
+L0 3 61
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v|
+!i113 1
+R7
+R8
+vpsl
+R9
+!i10b 1
+!s100 1iUAkG5m]gWOJ]REWN@240
+R1
+Ii=c6AATeBAj@GH^8A;W=W3
+R2
+R3
+w1713805452
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v
+!i122 411
+L0 2 225
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v|
+!i113 1
+R7
+R8
+vqadd
+R9
+!i10b 1
+!s100 AS:m9VTWKM?mJHkV]aVo73
+R1
+IWDVH=X?YT;zOU`T;>1;m_2
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v
+!i122 412
+L0 21 59
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v|
+!i113 1
+R7
+R8
+vqmult
+R9
+!i10b 1
+!s100 0ZSd?=5eXROQ;5M7Z^9Bg2
+R1
+Iz>eVW^a:Y?T1i8mhZhaIX2
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v
+!i122 413
+L0 21 45
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v|
+!i113 1
+R7
+R8
+vtanh_LUT
+R9
+!i10b 1
+!s100 Xie8VWnaX0>nGCMBb92YX0
+R1
+IROD28_iVC7=TmaJJE<On82
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v
+!i122 414
+L0 1 79
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v|
+!i113 1
+R7
+R8
+ntanh_@l@u@t
+vTop_level
+!s110 1713212768
+!i10b 1
+!s100 9V3e3_8^R<2Lg`HU3^A>n2
+R1
+IQfBKjWK@ilzO>_jgU5_RU3
+R2
+R3
+w1713212744
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/top_level.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/top_level.v
+!i122 24
+L0 2 195
+R5
+r1
+!s85 0
+31
+!s108 1713212768.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/top_level.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/top_level.v|
+!i113 1
+R7
+R8
+n@top_level

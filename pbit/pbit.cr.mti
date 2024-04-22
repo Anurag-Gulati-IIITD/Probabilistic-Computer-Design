@@ -12,14 +12,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	qadd
 
-} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v {2 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Top_level
-** Warning: /home/ullas/Probabilistic-Computer-Design/pbit/top_level.v(134): (vlog-2597) '3000000000' is being treated as 32-bit signed integer and will overflow.
-
-Top level modules:
-	Top_level
-
 } {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/LFSR.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module LFSR

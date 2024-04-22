@@ -1,0 +1,64 @@
+/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier_result_interpreter
+
+Top level modules:
+	multiplier_result_interpreter
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pbit_tb
+
+Top level modules:
+	pbit_tb
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/p_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pbit
+
+Top level modules:
+	pbit
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qadd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module qadd
+
+Top level modules:
+	qadd
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier_two_bit
+
+Top level modules:
+	multiplier_two_bit
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/tanh_LUT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tanh_LUT
+
+Top level modules:
+	tanh_LUT
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/qmult.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module qmult
+
+Top level modules:
+	qmult
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/LFSR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}} /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v {1 {vlog -work work -stats=none /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/psl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module psl
+
+Top level modules:
+	psl
+
+} {} {}}

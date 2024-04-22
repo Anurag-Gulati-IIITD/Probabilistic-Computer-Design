@@ -1,0 +1,939 @@
+# Loading project result-2-bit-mul
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 6 errors.
+# Compile of multiplier_two_bit.v failed with 1 errors.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 7 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 3 failed with 14 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 6 errors.
+# Compile of multiplier_two_bit.v failed with 1 errors.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 7 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 3 failed with 14 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 6 errors.
+# Compile of multiplier_two_bit.v failed with 2 errors.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 7 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 3 failed with 15 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 6 errors.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 7 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 2 failed with 13 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 2 errors.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 3 errors.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 1 failed with 3 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 13:55:27 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'res'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 37
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'valid_res'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'result'. The port definition is at: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_result_interpreter.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst/mri_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v Line: 29
+# Error loading design
+# End time: 13:55:28 on Apr 22,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 21
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 13:58:52 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'res'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 37
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'valid_res'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 37
+# Error loading design
+# End time: 13:58:52 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 13:59:29 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/pbit_tb/CLK
+add wave -position end  sim:/pbit_tb/RST
+add wave -position end  sim:/pbit_tb/MODE
+add wave -position end  sim:/pbit_tb/valid_in
+add wave -position end  sim:/pbit_tb/in1
+add wave -position end  sim:/pbit_tb/in2
+add wave -position end  sim:/pbit_tb/op
+add wave -position end  sim:/pbit_tb/res
+add wave -position end  sim:/pbit_tb/valid_res
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+add wave -position end  sim:/pbit_tb/multiplier_inst/mri_inst/count
+restart
+run
+add wave -position end  sim:/pbit_tb/multiplier_inst/mri_inst/psl_out
+restart
+run
+restart
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v failed with 2 errors.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 1 failed with 2 errors.
+restart
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v failed with 1 errors.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'valid_res'.
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst/mri_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/multiplier_two_bit.v Line: 29
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 13:59:29 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+add wave -position end  sim:/pbit_tb/multiplier_inst/psl_inst/psl_out
+add wave -position end  sim:/pbit_tb/multiplier_inst/psl_inst/out
+add wave -position end  sim:/pbit_tb/multiplier_inst/psl_inst/temp_out
+add wave -position end  sim:/pbit_tb/multiplier_inst/psl_inst/temp_z
+restart
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+restart
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+add wave -position 29  sim:/pbit_tb/multiplier_inst/psl_inst/z
+restart
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+add wave -position end  sim:/pbit_tb/multiplier_inst/psl_inst/update_sequence
+add wave -position end  sim:/pbit_tb/multiplier_inst/mri_inst/P2
+add wave -position end  sim:/pbit_tb/multiplier_inst/mri_inst/P3
+restart
+run
+add wave -position end  sim:/pbit_tb/multiplier_inst/pending_request
+restart
+run
+add wave -position 16  sim:/pbit_tb/multiplier_inst/mri_inst/upd_count
+add wave -position 17  sim:/pbit_tb/multiplier_inst/mri_inst/decision_count
+restart
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/wave.do
+# End time: 21:35:44 on Apr 22,2024, Elapsed time: 7:36:15
+# Errors: 0, Warnings: 1
+# Closing project /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/result-2-bit-mul.mpf
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project 2-bit-multiplier
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 21:36:15 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+add wave -position end  sim:/pbit_tb/count
+run
+# End time: 22:32:51 on Apr 22,2024, Elapsed time: 0:56:36
+# Errors: 0, Warnings: 2
+# Closing project /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/2-bit-multiplier.mpf
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project result-2-bit-mul
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 22:33:04 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+# ** Error: (vsim-3063) Port 'rev_in1' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 38
+# ** Error: (vsim-3063) Port 'rev_in2' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /pbit_tb/multiplier_inst File: /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/pbit_tb.v Line: 38
+# Error loading design
+# End time: 22:33:04 on Apr 22,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 22:34:17 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+do /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/wave.do
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v failed with 1 errors.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+add wave -position 8  sim:/pbit_tb/multiplier_inst/psl_inst/in_reverse
+restart
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/wave.do
+# End time: 23:12:55 on Apr 22,2024, Elapsed time: 0:38:38
+# Errors: 0, Warnings: 1
+# Closing project /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/result-2-bit-mul.mpf
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project 2-bit-multiplier
+# Compile of LFSR.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of pbit_tb.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of top_level.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 23:13:09 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.Top_level
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.qmult
+# Loading work.qadd
+add wave -position end  sim:/pbit_tb/count
+run
+run
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/pbit_tb/count
+# End time: 23:28:53 on Apr 22,2024, Elapsed time: 0:15:44
+# Errors: 0, Warnings: 2
+# Closing project /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/2-bit-multiplier.mpf
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project result-2-bit-mul
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim work.pbit_tb
+# vsim work.pbit_tb 
+# Start time: 23:29:03 on Apr 22,2024
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+do /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/deterministic-result/wave.do
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+run
+# Compile of LFSR.v was successful.
+# Compile of multiplier_result_interpreter.v was successful.
+# Compile of multiplier_two_bit.v was successful.
+# Compile of p_bit.v was successful.
+# Compile of psl.v was successful.
+# Compile of qadd.v was successful.
+# Compile of qmult.v was successful.
+# Compile of tanh_LUT.v was successful.
+# Compile of pbit_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.pbit_tb
+# Loading work.multiplier_two_bit
+# Loading work.psl
+# Loading work.pbit
+# Loading work.LFSR
+# Loading work.tanh_LUT
+# Loading work.multiplier_result_interpreter
+# Loading work.qmult
+# Loading work.qadd
+run
+# End time: 23:37:04 on Apr 22,2024, Elapsed time: 0:08:01
+# Errors: 0, Warnings: 2

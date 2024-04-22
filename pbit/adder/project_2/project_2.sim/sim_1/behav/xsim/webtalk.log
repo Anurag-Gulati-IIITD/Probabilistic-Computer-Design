@@ -2,12 +2,12 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon Apr  1 03:55:32 2024
-# Process ID: 615487
+# Start of session at: Tue Apr  2 20:42:53 2024
+# Process ID: 674592
 # Current directory: /home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim
 # Command line: wbtcv -mode batch -source /home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/pbit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
 source /home/ullas/Probabilistic-Computer-Design/pbit/adder/project_2/project_2.sim/sim_1/behav/xsim/xsim.dir/pbit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Mon Apr  1 03:55:34 2024...
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr  2 20:42:55 2024...

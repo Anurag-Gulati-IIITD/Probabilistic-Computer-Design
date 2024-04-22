@@ -1,0 +1,156 @@
+# Loading project full_adder
+# reading /opt/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project new_cache_controller_verifier
+# Compile of Cache.sv failed with 4 errors.
+# Compile of cache_memory.sv failed with 5 errors.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv failed with 5 errors.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 3 failed with 14 errors.
+# Compile of Cache.sv was successful with warnings.
+# Compile of cache_memory.sv was successful with warnings.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv failed with 5 errors.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 1 failed with 5 errors.
+# Compile of Cache.sv was successful with warnings.
+# Compile of cache_memory.sv was successful with warnings.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv failed with 3 errors.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 1 failed with 3 errors.
+# Compile of Cache.sv was successful with warnings.
+# Compile of cache_memory.sv was successful with warnings.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv was successful with warnings.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.Coherence_tb
+# vsim work.Coherence_tb 
+# Start time: 12:32:45 on Apr 03,2024
+# Loading sv_std.std
+# Loading work.cache_pkg
+# Loading work.memory_pkg
+# Loading work.interface_pkg
+# Loading work.coherence_cache_controller_tb_sv_unit
+# Loading work.Coherence_tb
+# Loading work.Cache_sv_unit
+# Loading work.PhysicalCache
+# Loading work.coherence_cache_controller_sv_unit
+# Loading work.CacheController
+# Loading work.ReplacementLogic
+# Loading work.LFSR
+# Loading work.cache_memory_sv_unit
+# Loading work.CacheMemory
+# Loading work.TagComparator
+# Loading work.WayBlock
+# Loading work.SRAMArray
+# Loading work.SRAMArrayStrobed
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'fwd_req_state_validity'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'cpu_req_state_validity'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'validCPUReq'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'IntermCPURequest'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'CohReqWen'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'IntermCoherenceResponse'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'validCohResp'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'validFwdReq'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'IntermForwardedRequest'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in Coherence_tb for port 'FwdRespWen'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/Cache.sv
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cce_inst'.  Expected 15, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb/cce_inst File: /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv Line: 18
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'fwd_req_state_validity'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'cpu_req_state_validity'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'validCPUReq'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'IntermCPURequest'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'CohReqWen'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'IntermCoherenceResponse'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'validCohResp'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'validFwdReq'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'IntermForwardedRequest'.
+# ** Warning: (vsim-3722) /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv(18): [TFMPC] - Missing connection for port 'FwdRespWen'.
+# Error loading design
+# End time: 12:32:46 on Apr 03,2024, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 19
+# Compile of Cache.sv was successful with warnings.
+# Compile of cache_memory.sv was successful with warnings.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv was successful with warnings.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.Coherence_tb
+# vsim work.Coherence_tb 
+# Start time: 12:46:09 on Apr 03,2024
+# Loading sv_std.std
+# Loading work.cache_pkg
+# Loading work.memory_pkg
+# Loading work.interface_pkg
+# Loading work.coherence_cache_controller_tb_sv_unit
+# Loading work.Coherence_tb
+# Loading work.Cache_sv_unit
+# Loading work.PhysicalCache
+# Loading work.coherence_cache_controller_sv_unit
+# Loading work.CacheController
+# Loading work.ReplacementLogic
+# Loading work.LFSR
+# Loading work.cache_memory_sv_unit
+# Loading work.CacheMemory
+# Loading work.TagComparator
+# Loading work.WayBlock
+# Loading work.SRAMArray
+# Loading work.SRAMArrayStrobed
+# ** Error: (vsim-3043) Unresolved reference to 'ForwardedRequest'.
+#    Time: 0 ps  Iteration: 0  Instance: /Coherence_tb File: /home/ullas/Ullas_CCE/New_Caccon/coherence_cache_controller_tb.sv Line: 60
+# Error loading design
+# End time: 12:46:09 on Apr 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of Cache.sv was successful with warnings.
+# Compile of cache_memory.sv was successful with warnings.
+# Compile of cache_pkg.sv was successful.
+# Compile of coherence_cache_controller.sv was successful with warnings.
+# Compile of coherence_cache_controller_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of ReplacementLogic.sv was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.Coherence_tb
+# vsim work.Coherence_tb 
+# Start time: 12:46:50 on Apr 03,2024
+# Loading sv_std.std
+# Loading work.cache_pkg
+# Loading work.memory_pkg
+# Loading work.interface_pkg
+# Loading work.coherence_cache_controller_tb_sv_unit
+# Loading work.Coherence_tb
+# Loading work.Cache_sv_unit
+# Loading work.PhysicalCache
+# Loading work.coherence_cache_controller_sv_unit
+# Loading work.CacheController
+# Loading work.ReplacementLogic
+# Loading work.LFSR
+# Loading work.cache_memory_sv_unit
+# Loading work.CacheMemory
+# Loading work.TagComparator
+# Loading work.WayBlock
+# Loading work.SRAMArray
+# Loading work.SRAMArrayStrobed
+# End time: 12:06:53 on Apr 05,2024, Elapsed time: 47:20:03
+# Errors: 0, Warnings: 2

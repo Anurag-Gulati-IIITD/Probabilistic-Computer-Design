@@ -1,0 +1,221 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ullas/Probabilistic-Computer-Design/pbit
+vLFSR
+Z0 !s110 1713807780
+!i10b 1
+!s100 _LOK[l=2D:24ZoRbL;;1[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQOGjaY6<7eE1TJ]=I]9K93
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier
+Z4 w1713118641
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/LFSR.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/LFSR.v
+!i122 155
+L0 23 42
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1713807780.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/LFSR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/LFSR.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@l@f@s@r
+vpbit
+R0
+!i10b 1
+!s100 W>C[4J`;RgGfa2k;F:7k<0
+R1
+Ie<IkM?M:XS2hcRJ?B<CgL3
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/p_bit.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/p_bit.v
+!i122 156
+L0 1 48
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/p_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/p_bit.v|
+!i113 1
+R7
+R8
+vpbit_tb
+R0
+!i10b 1
+!s100 WRNfgZSFJ24U=>[73ej9D0
+R1
+I9_^3QdGhBhzlM?TMCYV^<2
+R2
+R3
+w1713181663
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/pbit_tb.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/pbit_tb.v
+!i122 157
+L0 3 74
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/pbit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/pbit_tb.v|
+!i113 1
+R7
+R8
+vqadd
+R0
+!i10b 1
+!s100 AS:m9VTWKM?mJHkV]aVo73
+R1
+I4bzV=zD8646heBGgX;[Dk2
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qadd.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qadd.v
+!i122 158
+L0 21 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qadd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qadd.v|
+!i113 1
+R7
+R8
+vqmult
+R0
+!i10b 1
+!s100 0ZSd?=5eXROQ;5M7Z^9Bg2
+R1
+I:`0c;@TKJH:YeAo?h61J93
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qmult.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qmult.v
+!i122 159
+L0 21 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qmult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/qmult.v|
+!i113 1
+R7
+R8
+vseq_test_tb
+Z9 !s110 1713125093
+!i10b 1
+!s100 :9U];V<@oa@WKNQ:d7B2V1
+R1
+Iz[EDRBCCE>8Z14j[RY6iQ1
+R2
+R3
+w1713118909
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test2_tb.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test2_tb.v
+!i122 38
+L0 2 21
+R5
+r1
+!s85 0
+31
+Z10 !s108 1713125093.000000
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test2_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test2_tb.v|
+!i113 1
+R7
+R8
+vseq_test_v2
+R9
+!i10b 1
+!s100 6eScR04LM2?6DY6cz@T7:0
+R1
+Inma]Vj@1iVCWeYR[RQ??Y1
+R2
+R3
+w1713125068
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test_v2.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test_v2.v
+!i122 39
+L0 1 39
+R5
+r1
+!s85 0
+31
+R10
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test_v2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/seq_test_v2.v|
+!i113 1
+R7
+R8
+vtanh_LUT
+R0
+!i10b 1
+!s100 Xie8VWnaX0>nGCMBb92YX0
+R1
+I;B0;Q8MD>RJPiQ[CV:<4M1
+R2
+R3
+R4
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/tanh_LUT.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/tanh_LUT.v
+!i122 160
+L0 1 79
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/tanh_LUT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/tanh_LUT.v|
+!i113 1
+R7
+R8
+ntanh_@l@u@t
+vTop_level
+R0
+!i10b 1
+!s100 ]:;J?6Ho7SHb8]L5e4I?E0
+R1
+ICIOzP]C6Z9kX3]Y1SaD1Q0
+R2
+R3
+w1713212101
+8/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/top_level.v
+F/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/top_level.v
+!i122 161
+L0 2 162
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/top_level.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ullas/Probabilistic-Computer-Design/pbit/4-bit-multiplier/top_level.v|
+!i113 1
+R7
+R8
+n@top_level
